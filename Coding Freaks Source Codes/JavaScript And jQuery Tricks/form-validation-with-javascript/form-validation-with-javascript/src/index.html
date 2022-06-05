@@ -1,0 +1,91 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="utf-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1">
+  <meta name="viewport" content= "width=device-width, user-scalable=no">
+<meta name="viewport" content="width=device-width, initial-scale=1.0, user-scalable=no">
+  <meta http-equiv="X-UA-Compatible" content="IE=edge">
+
+ <!-- Latest compiled and minified CSS -->
+<link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/4.3.1/css/bootstrap.min.css">
+
+<!-- jQuery library -->
+<script src="https://ajax.googleapis.com/ajax/libs/jquery/3.4.1/jquery.min.js"></script>
+
+<!-- Popper JS -->
+<script src="https://cdnjs.cloudflare.com/ajax/libs/popper.js/1.14.7/umd/popper.min.js"></script>
+
+<!-- Latest compiled JavaScript -->
+<script src="https://maxcdn.bootstrapcdn.com/bootstrap/4.3.1/js/bootstrap.min.js"></script> 
+
+<!-- Latest compiled Google Fonts -->
+
+<link href="https://fonts.googleapis.com/css?family=Roboto&display=swap" rel="stylesheet">
+
+<!-- Latest compiled Font Awesome-->
+  <script src="https://ajax.googleapis.com/ajax/libs/jquery/3.4.1/jquery.min.js"></script>
+  <script src="https://maxcdn.bootstrapcdn.com/bootstrap/3.4.0/js/bootstrap.min.js"></script>
+
+<link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/4.7.0/css/font-awesome.min.css">
+</head>
+
+<body>
+
+<div class="container mt-1">
+	
+	<div class="row justify-content-center">
+		
+		<div class="col-lg-5 col-md-8 col-sm-12 col-12">
+<!--h6 class="text-danger mb-4 text-center">Click On Love &#x2764; If You Liked The Code</h6-->
+<form class="form" method="POST" action="">
+
+<div class="form-group">
+	
+	<div class="input-group">
+		
+<div class="input-group-prepend">			
+			<span class="input-group-text"><i class="fa fa-user"></i></span>
+		</div>
+<input type="text" placeholder="Enter Your Username" class="form-control"
+id="user" autocomplete="off" onkeyup="remove1();">		
+	</div>
+<h6 class="text-danger text-center" id="userr"></h6>
+</div>
+	
+
+<div class="form-group">
+	
+	<div class="input-group">
+		
+<div class="input-group-prepend">			
+			<span class="input-group-text"><i class="fa fa-phone"></i></span>
+		</div>
+<input type="number" placeholder="Enter Your Contact Number" class="form-control"
+id="num"  autocomplete="off"  onkeyup="remove2();">		
+	</div>
+<h6 class="text-danger text-center" id="numerr"></h6>
+
+</div>
+
+<div class="form-group">
+	
+	<div class="input-group">
+		
+<div class="input-group-prepend">			
+			<span class="input-group-text"><i class="fa fa-user"></i></span>
+		</div>
+<input type="password" placeholder="Enter Your Password" class="form-control"
+id="key"  autocomplete="off"  onkeyup="remove3();">		
+	</div>
+<h6 class="text-danger text-center" id="keyerr"></h6>
+
+</div>
+
+<input type="submit" class="btn btn-primary form-control"  value="LOGIN"
+onclick="return validations();">
+</form>
+		</div>
+	</div>
+</div>	
+</body></html>

@@ -1,0 +1,68 @@
+<!DOCTYPE html>
+<html>
+<head>
+	<meta charset="utf-8">
+	<meta http-equiv="X-UA-Compatible" content="IE=edge">
+	<title></title>
+	<!-- Latest compiled and minified CSS -->
+<link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/4.3.1/css/bootstrap.min.css">
+
+<!-- jQuery library -->
+<script src="https://ajax.googleapis.com/ajax/libs/jquery/3.4.1/jquery.min.js"></script>
+
+<!-- Popper JS -->
+<script src="https://cdnjs.cloudflare.com/ajax/libs/popper.js/1.14.7/umd/popper.min.js"></script>
+
+<!-- Latest compiled JavaScript -->
+<script src="https://maxcdn.bootstrapcdn.com/bootstrap/4.3.1/js/bootstrap.min.js"></script>
+
+<link href="https://stackpath.bootstrapcdn.com/font-awesome/4.7.0/css/font-awesome.min.css" rel="stylesheet" integrity="sha384-wvfXpqpZZVQGK6TAh5PVlGOfQNHSoD2xbE+QkPxCAFlNEevoEH3Sl0sibVcOQVnN" crossorigin="anonymous">
+		<style type="text/css" media="screen">
+			#body{
+				background: #2C3E50;
+			}
+
+			#mydiv{
+				border: 10px solid white;
+				height: 50vh;
+				width: 50vh;
+				overflow: hidden;
+			}
+			img{
+				height: 100%;
+				width: 100%;
+				transition: all 1s;
+			}
+
+			img:hover{
+				transform: scale(1.1);
+			}
+
+
+			#img:hover{
+				transform: scale(1.2) rotate(60deg);
+			}
+		</style>
+</head>
+<body id="body">
+
+			<h1 class="text-white text-center">CSS ZOOM IN EFFECT</h6>
+		<div class="container mt-5">
+			<div class="row justify-content-center">
+				<div class="col-lg-6 col-md-6 col-sm-12 col-12">
+					<div id="mydiv">
+						<img src="images/Kratos.jpg">
+					</div>
+				</div>
+
+				<div class="col-lg-6 col-md-6 col-sm-12 col-12">
+					<div id="mydiv">
+						<img src="images/codingFreaks.png" id="img">
+					</div>
+				</div>
+
+			</div>
+		</div>
+	
+</body>
+</html>

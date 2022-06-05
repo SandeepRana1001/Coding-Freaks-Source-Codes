@@ -1,0 +1,35 @@
+.card{
+    height: 300px !important;;
+    width:auto;
+    opacity: 0.7;
+}
+.img_card_container{
+    height: 150px;
+    width:auto;
+    background-color: #95a5a6;
+    animation: pulsate 2s linear infinite ;
+}
+
+.loader_text_I,.loader_text_II{
+    height: 20px;
+    background-color: #95a5a6;
+    margin-right: 20px;
+    border-radius: 25px;
+    margin-top: 20px;
+    animation: pulsate 2s linear infinite ;
+}
+.loader_text_I{
+    width: 50%;
+}
+.loader_text_II{
+    width: 100%;
+}
+
+@keyframes pulsate {
+    0%{background-color: #34495e;}
+    20%{background-color: #2c3e50;}
+    40%{background-color: #7f8c8d;}
+    60%{background-color: #95a5a6;}
+    80%{background-color: #95a5a6;}
+    100%{background-color: #2c3e50;}
+}

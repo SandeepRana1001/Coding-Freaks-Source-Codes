@@ -1,0 +1,52 @@
+*
+{
+	box-sizing: border-box;
+	margin: 0;
+	padding: 0;
+	background: #2c3e50;
+}
+
+.water
+{
+	position: absolute;
+	top: 50%;
+	left: 50%;
+	transform: translate(-50%,-50%);
+}
+
+
+.water h1
+{
+	text-transform: uppercase;
+	font-family: monospace;
+	font-size: 15em;
+	padding: 0;
+	margin: 0;
+	color: rgba(255,255,255,0.1);
+	background-image: url("../images/water3.png");
+	background-repeat: repeat-x;
+	-webkit-background-clip: text;
+	animation: animate 15s linear infinite;
+}
+
+@keyframes animate {
+	0%
+	{
+		background-position: top -50% left 0%;
+	}
+
+	40%
+	{
+		background-position: left 800px top -50px;
+	}
+
+	80%
+	{
+		background-position: left 1800px top -50px;
+	}
+
+	100%
+	{
+		background-position: left 2400px top 100px;
+	}
+}
